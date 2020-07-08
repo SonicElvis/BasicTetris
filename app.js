@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     [1, width + 1, width * 2 + 1, width * 3 + 1],
     [width, width + 1, width + 2, width + 3]
   ]
-  const theTetrominoes = [lTetromino, zTetromino, tTetromino, oTertomino, iTetromino]
+  const theTetrominoes = [lTetromino, zTetromino, oTertomino, tTetromino, iTetromino]
   let currentPosition = 4
   let currentRotation = Math.floor(Math.random() * 3)
   // select shape randomly
