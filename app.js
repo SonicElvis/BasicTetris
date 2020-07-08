@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // gameover function
   function gameOver () {
     if (current.some(index => squares[currentPosition + index].classList.contains('taken'))) {
-      scoreDisplay.innerHTML = 'end'
+      scoreDisplay.innerHTML = score + ' End'
       clearInterval(timerId)
     }
   }
